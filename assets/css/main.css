@@ -539,9 +539,9 @@
 						text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
 					}
 
-					ul.icons li a:hover:before {
+					/*ul.icons li a:hover:before {
 						text-shadow: 1.25px 0px 0px red, -1.25px 0px 0px red, 0px 1.25px 0px red, 0px -1.25px 0px red;
-					}
+					}*/
 
 					ul.icons li a:before {
 						position: absolute;
@@ -556,7 +556,7 @@
 					}
 
 					ul.icons li a:hover {
-						border-color: red;
+						/*border-color: red;*/
     -webkit-animation-name: animate1; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
