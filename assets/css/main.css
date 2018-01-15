@@ -540,7 +540,7 @@
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+						text-shadow: 1.25px 0px 0px red, -1.25px 0px 0px red, 0px 1.25px 0px red, 0px -1.25px 0px red;
 					}
 
 					ul.icons li a:before {
@@ -556,8 +556,44 @@
 					}
 
 					ul.icons li a:hover {
-						border-color: #ff7496;
-					}
+						border-color: red;
+    -webkit-animation-name: animate1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
+    animation-name: animate1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+						
+			/* Chrome, Safari, Opera */
+@-webkit-keyframes animate1 {
+    0%   {background-color: red;}
+    10%  {background-color: orange;}
+    20%  {background-color: yellow;}
+    30% {background-color: lightgreen;}
+	40% {background-color: green;}
+	50% {background-color: lightblue;}
+	60% {background-color: blue;}
+	70% {background-color: indigo;}
+	80% {background-color: violet;}
+	90% {background-color: orchid;}
+	100% {background-color: pink;}
+}
+
+/* Standard syntax */
+@keyframes animate1 {
+     0%   {background-color: red;}
+    10%  {background-color: orange;}
+    20%  {background-color: yellow;}
+    30% {background-color: lightgreen;}
+	40% {background-color: green;}
+	50% {background-color: lightblue;}
+	60% {background-color: blue;}
+	70% {background-color: indigo;}
+	80% {background-color: violet;}
+	90% {background-color: orchid;}
+	100% {background-color: pink;}
+}
 
 			@media screen and (max-width: 480px) {
 
