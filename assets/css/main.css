@@ -556,7 +556,7 @@
 					}
 
 					ul.icons li a:hover {
-						/*border-color: red;*/
+						border-color: red;
     -webkit-animation-name: animate1; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
@@ -565,7 +565,7 @@
     animation-iteration-count: infinite;
 }
 						
-			/* Chrome, Safari, Opera */
+			/* Chrome, Safari, Opera
 @-webkit-keyframes animate1 {
     0%   {background-color: red;}
     10%  {background-color: orange;}
@@ -580,7 +580,7 @@
 	100% {background-color: pink;}
 }
 
-/* Standard syntax */
+/* Standard syntax 
 @keyframes animate1 {
      0%   {background-color: red;}
     10%  {background-color: orange;}
@@ -593,7 +593,7 @@
 	80% {background-color: violet;}
 	90% {background-color: orchid;}
 	100% {background-color: pink;}
-}
+} */
 
 			@media screen and (max-width: 480px) {
 
@@ -732,7 +732,7 @@
 
 	#main {
 		position: relative;
-		max-width: 100%;
+		max-width: 50%;
 		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
@@ -752,6 +752,10 @@
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
+	}
+
+	#main p {
+		text-transform: none;
 	}
 
 		#main .avatar {
