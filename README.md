@@ -6,4 +6,4 @@ Collection of the front-end projects I've completed for the University of Richmo
 
 ### Find Me :round_pushpin:
 
-[LinkedIn](https://www.linkedin.com/in/kristiniacone/) | [Stack Overflow](https://stackoverflow.com/users/8871185/kristin-iacone?tab=profile) | [Medium](https://medium.com/@kiacone) | [Dribbble](https://dribbble.com/kiacone) | [Instagram](https://www.instagram.com/kristiniacone/)
+[LinkedIn](https://www.linkedin.com/in/kristiniacone/) | [Stack Overflow](https://stackoverflow.com/users/8871185/kristin-iacone?tab=profile) | [Medium](https://medium.com/@kiacone) | [Dribbble](https://dribbble.com/kiacone)
